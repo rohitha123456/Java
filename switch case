@@ -1,0 +1,24 @@
+mport java.io.*;
+import java.util.Scanner;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter number from 0 to 9");
+        int num=sc.nextInt();
+        switch(num){
+            case 0:System.out.println("You Entered Zero");
+            break;
+            case 1:System.out.println("You Entered one");
+            break;
+            case 2:System.out.println("You Entered two");
+            break;
+            case 3:System.out.println("You Entered three");
+            break;
+            case 4:System.out.println("You Entered four");
+            break;
+            case 5:System.out.println("You Entered five");
+            break;
+            default:System.out.println("You Entered an invalid number");
+        }
+    }
+}
