@@ -1,0 +1,11 @@
+//java program to display student details
+import java.io.*;
+ public class StudentDetails{
+    public static void main(String args[]){
+        System.out.println("\t\t\t\t\tSTUDENT DETAILS");
+        System.out.println("Name:M.Rohitha\t\t\t\t| Reg No:23K61A4741");
+        System.out.println("Father Name:M.SuriBabu\t| Aadhar No:627060519855");
+        System.out.println("Occupation:Business\t\t\t| DOB:11/08/2005");
+        System.out.println("Parent Mobile:8019632596\t| No.of subjects passed:20");
+    }
+}
