@@ -1,0 +1,14 @@
+import java.io.*;
+class Main{
+    public static void main(String args[]){
+        String str="Saranya";
+        System.out.printf("\nThe string value is:%s\n",str);
+        int x=512;
+        System.out.printf("\nThe integer value is:%d\n",x);
+        double f=5.246527;
+        System.out.printf("\nThe double value is:%f\n",f);
+        System.out.printf("\nAfter formatting to specific width: %.4f\n",f);
+        System.out.printf("\nAfter formatting to right margin the value is:%10.2f\n",f);
+    }
+}
+
