@@ -12,10 +12,10 @@ class Circle {
         this.r = ob.r;
     }
     double area() {
-        return Math.PI * r * r;
+        return(22/7.0) * r * r;
     }
    double area(double r) {
-        return Math.PI * r * r;
+        return (22/7.0)* r * r;
     }
     void set_circle(double r) {
         this.r = r;
