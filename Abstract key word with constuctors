@@ -1,0 +1,24 @@
+import java.io.*;
+import java.util.*;
+abstract class Base {
+    Base() {
+        System.out.println("Base constructor is invoked");
+    }
+    abstract void Fun(); 
+}
+class Derived extends Base {
+    Derived() {
+        super(); 
+        System.out.println("Derived constructor is invoked");
+    }
+    void Fun() {  
+        System.out.println("Derived function is invoked");
+    }
+}
+
+public class AbstractDemo {
+    public static void main(String args[]) {
+        Derived d = new Derived();  
+        d.Fun();  
+    }
+}
