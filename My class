@@ -1,0 +1,18 @@
+public class MyClass {
+  public static void main(String args[]) {
+    int x=550;
+    int y=235;
+    int z=x-y;
+    int h=x*y;
+    int k=x+y;
+    int l=x%y;
+    int r=x/y;
+    int g=x*x;
+    System.out.println("Result of x-y = " + z);
+    System.out.println("Product of x*y = " + h);
+    System.out.println("Sum of x+y = " + k);
+    System.out.println("Rem of x%y = " + l);
+    System.out.println("Div of x/y = " + r);
+    System.out.println("squ of x*x = " + g);
+  }
+}
