@@ -1,0 +1,46 @@
+import java.io.*;
+import java.util.*;
+public class MatrixAddition{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        system.out.println("Enter rows and columns of first matrix: ");
+        int r1 = Sc.nextInt();
+        int c1 = Sc.nextInt();
+        System.out.println("Enter rows and columns of second matrix: ");
+        int r2=Sc.nextInt();
+        int c2=Sc.nextint();
+        if(r!=r2||c!=c2){
+            System.out.println("Addition not possible");
+            System.exit(0);
+        }
+        else{
+            int a[][] = new int[r1][c1];
+            int b[][] = new int[r2][c2];
+            System.out.println("Enter"+(r1*c1)+"into matrix a");
+            for(int i=0;i<r1;i++){
+                for(int j=0;j<c1;j++){
+                    a[i][j] = Sc.nextInt();
+                }
+            }
+            System.out.println("Enter"+(r2*c2)+"into matrix b");
+            for(int i=0;i<r2;i++){
+                for(int j=0;j<c2;j++){
+                    b[i][j]=Sc.nextInt();
+                }
+            }
+            Static int c[][] = new int[r1][c1];
+            for(int i=0;i<r;i++){
+                for(int j=0;j<c1;j++){
+                    c[i][j] = a[i][j]+b[i][j]
+                }
+            }
+            Sysstem.out.println("After addition the resultant matrix c is");
+            for(int i=0;i<r1;i++){
+                for(int j=0;j<c;j++){
+                    Systen.out.println(c[i][j]+" ");
+                }
+                system.out.println();
+            }
+        }
+    }
+}
