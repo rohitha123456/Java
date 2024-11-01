@@ -1,0 +1,13 @@
+import java.io.*;
+import java.lang.String;
+class StringCreation{
+    public static void main(String args[]){
+        String s1="welcome";
+        char ch[]={'M','u','k','e','s','h'};
+        String s2=new String(ch);
+        String s3=new String("Example program");
+        System.out.println("first string is "+s1);
+        System.out.println("second string is "+s2);
+        System.out.println("third string is "+s3);
+    }
+}
