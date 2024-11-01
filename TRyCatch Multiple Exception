@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+ public class TrycatchMultipleException{
+     public static void main(String args[]){
+         int a=5,b=0,c;
+         int arr[]=new int[5];
+         String str=null;
+         try{
+             c=a/b;
+             System.out.println("value of c is "+c);
+             arr[10]=200;
+             System.out.println("length of the string is "+str.length());
+         }
+         catch(ArithmeticException ae){
+             System.out.println("Arithmetic Exception caught");
+         }
+         catch(ArrayIndexOutOfBoundsException aiob){
+             System.out.println("Array index out of range exception caught"+aiob);
+         }
+         catch(NullPointerException npe){
+             System.out.println("Null pointer exception caught"+npe);
+         }
+         catch(Exception e){
+             System.out.println("Exception caught"+e);
+         }
+     }
+ }
